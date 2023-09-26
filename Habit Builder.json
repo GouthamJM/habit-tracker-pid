@@ -2,7 +2,8 @@
     "$metadata": {
         "type": "Habit",
         "uris": {
-            "jsonLdContext": "ipfs://Qmec7mEmhYkaavcuVirkkmTo7YQcUWYXqMFG3Sst4gXr25"
+            "jsonLdContext": "https://raw.githubusercontent.com/GouthamJM/habit-tracker-pid/main/Habit%20Builder.jsonld",
+            "jsonSchema": "https://raw.githubusercontent.com/GouthamJM/habit-tracker-pid/main/Habit%20Builder.json"
         },
         "version": "2.0"
     },
