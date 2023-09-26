@@ -2,9 +2,9 @@
     "$metadata": {
         "type": "Habit",
         "uris": {
-            "jsonLdContext": "ipfs://QmeZvAGkhNbg3e2iuZ8yyUuvvL4brFHtMKURu58LAYZp7m"
+            "jsonLdContext": "ipfs://Qmec7mEmhYkaavcuVirkkmTo7YQcUWYXqMFG3Sst4gXr25"
         },
-        "version": "1.0"
+        "version": "2.0"
     },
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "description": "Collect user data related to a habit",
@@ -60,7 +60,6 @@
                 "distanceOrTime": {
                     "description": "Show distance or time user has acheieved",
                     "title": "Distance or Time",
-                    "pattern": "/^\\d+(?:\\.\\d+)?(?:\\s*(?:km|meter|feet|miles|hr|min|sec))$/",
                     "type": "string"
                 },
                 "activity": {
