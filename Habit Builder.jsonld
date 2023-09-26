@@ -1,0 +1,39 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "Habit": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "urn:uuid:fa97c738-a2d7-47ba-846f-cb1ddba80807#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "distanceOrTime": {
+                        "@id": "polygon-vocab:distanceOrTime",
+                        "@type": "xsd:string"
+                    },
+                    "activity": {
+                        "@id": "polygon-vocab:activity",
+                        "@type": "xsd:string"
+                    },
+                    "gender": {
+                        "@id": "polygon-vocab:gender",
+                        "@type": "xsd:string"
+                    },
+                    "age": {
+                        "@id": "polygon-vocab:age",
+                        "@type": "xsd:double"
+                    },
+                    "name": {
+                        "@id": "polygon-vocab:name",
+                        "@type": "xsd:string"
+                    }
+                },
+                "@id": "urn:uuid:8ae449c1-7d38-4799-95bd-817ab1714ee5"
+            }
+        }
+    ]
+}
